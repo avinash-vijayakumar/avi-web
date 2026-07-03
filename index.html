@@ -216,9 +216,10 @@
     grid-template-columns:repeat(4, 1fr);
   }
   .stat-cell{
-    padding:30px 24px 34px 0;
+    padding:30px 32px 34px 28px;
     border-right:1px solid var(--rule);
   }
+  .stat-cell:first-child{padding-left:0;}
   .stat-cell:last-child{border-right:none;}
   .stat-figure{
     font-family:'IBM Plex Mono', monospace;
@@ -231,7 +232,7 @@
     margin-top:8px;
     font-size:13px;
     color:var(--muted);
-    max-width:200px;
+    max-width:185px;
   }
 
   /* ---------- about ---------- */
@@ -494,15 +495,15 @@
     background:var(--ink);
     color:var(--paper);
     border-bottom:none;
-    padding:64px 0;
+    padding:44px 0;
   }
   .contact .eyebrow{color:var(--gold-soft);}
   .contact .eyebrow::before{background:var(--gold-soft);}
   .contact h2{
     color:var(--white);
-    font-size:28px;
+    font-size:26px;
     max-width:640px;
-    margin-bottom:32px;
+    margin-bottom:24px;
   }
   .contact p{
     color:#C7CBDA;
@@ -519,7 +520,7 @@
   }
   .contact-cell{
     background:var(--ink);
-    padding:28px 26px;
+    padding:22px 26px;
   }
   .contact-cell .k{
     font-family:'IBM Plex Mono', monospace;
